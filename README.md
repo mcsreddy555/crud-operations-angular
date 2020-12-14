@@ -25,3 +25,43 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+we can follow the below steps to run application
+
+
+
+
+1.       download the project using below link
+
+                              
+
+https://github.com/mcsreddy555/crud-operations-angular/
+
+
+
+2.       unzip the file
+
+
+
+3.       go to file location
+
+ 
+
+4.       enter cmd
+
+> cd crud-operations-angular-master
+
+>  ng s
+
+
+
+5.       open another cmd prompt
+
+>  cd crud-operations-angular-master/src/assets
+
+>  json-server –watch db.json
+
+
+
+
+
