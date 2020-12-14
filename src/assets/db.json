@@ -1,0 +1,54 @@
+{
+  "Employee": [
+    {
+      "id": 2,
+      "empName": "Sekhar",
+      "salary": "25000",
+      "designation": "Testing",
+      "email": "sekhar@gmail.com",
+      "mobile": "9848915846",
+      "qualification": "M.Tech",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "empName": "Chandra",
+      "salary": "25000",
+      "designation": "Angular Developer",
+      "email": "chandumullangi3@gmail.com",
+      "mobile": "9848915846",
+      "qualification": "B.Tech",
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "empName": "angular",
+      "salary": "25000",
+      "designation": "Angular Developer",
+      "email": "angular@gmai.com",
+      "mobile": "9988553344",
+      "qualification": "MCA",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "empName": "java",
+      "salary": "30000",
+      "designation": "Software Developer",
+      "email": "java@gmail.com",
+      "mobile": "994534532",
+      "qualification": "M.Tech",
+      "gender": "Female"
+    },
+    {
+      "id": 6,
+      "empName": "Python",
+      "salary": "34000",
+      "designation": "Software Developer",
+      "email": "python@gmail.com",
+      "mobile": "22000",
+      "qualification": "B.Sc",
+      "gender": "Male"
+    }
+  ]
+}

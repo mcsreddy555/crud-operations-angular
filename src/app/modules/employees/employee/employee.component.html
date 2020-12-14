@@ -1,0 +1,75 @@
+<div class="emp-form" style="align-content: center;">
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <input placeholder="Employee Name" class="form-control" [(ngModel)]="employeeService.currentEmployee.empName" required="">
+    </div>
+    <div class="col-md-6 form-group">
+      <input placeholder="Salary" class="form-control" [(ngModel)]="employeeService.currentEmployee.salary" required="">
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-md-12 form-group">
+      <label for="Desgination">Desgination</label>
+      <input placeholder="Desingation" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
+      <select  placeholer="Desingation" name="designation" id="" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
+        <option value="UI Developer">UI Developer</option>
+        <option value="Angular Developer">Angular Developer</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="Testing">Testing</option>
+      </select>
+    </div>
+  </div> -->
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <input type="email" placeholder="Email" class="form-control" [(ngModel)]="employeeService.currentEmployee.email" required="">
+    </div>
+    <div class="col-md-6 form-group">
+      <input type="tel" placeholder="Mobile" class="form-control" [(ngModel)]="employeeService.currentEmployee.mobile" required="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <label for="qualification">Qualification</label>
+      <!-- <input placeholder="Qualification" class="form-control" [(ngModel)]="employeeService.currentEmployee.qualification"> -->
+      <select  placeholer="Qualification" name="qualification" id="" class="form-control" [(ngModel)]="employeeService.currentEmployee.qualification" required="">
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="M.Tech">M.Tech</option>
+
+      </select>
+    </div>
+    <div class="col-md-6 form-group">
+      <label for="Desgination">Desgination</label>
+      <!-- <input placeholder="Desingation" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation"> -->
+      <select  placeholer="Desingation" name="designation" id="" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation" required="">
+        <option value="UI Developer">UI Developer</option>
+        <option value="Angular Developer">Angular Developer</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="Testing">Testing</option>
+      </select>
+      
+    </div>
+    <div class="col-md-12 form-group">
+      <label for="Gender">Gender  :</label> 
+      <!-- <input type="" placeholder="Gender" class="form-control" [(ngModel)]="employeeService.currentEmployee.gender"> -->
+      <input type="radio" name="gender" value="Male" [(ngModel)]="employeeService.currentEmployee.gender">Male
+      <input type="radio" name="gender" value="Female" [(ngModel)]="employeeService.currentEmployee.gender">Female
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <button class="btn btn-success btn-lg btn-block" (click)="createOrUpdateEmployee(employeeService.currentEmployee)">
+        <i class="fa fa-save"></i>
+        SAVE
+      </button>
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-primary btn-lg btn-block" (click)="clearEmployee()">
+        <i class="fa fa-retweet"></i>
+        CLEAR
+      </button>
+    </div>
+  </div>
+</div>
